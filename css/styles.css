@@ -40,7 +40,7 @@ header {
     left: 0;
     width: 100%;
     padding: 2rem 9%;
-    background-color: var(--header-bg-color);
+    /*background-color: var(--header-bg-color);*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -222,4 +222,19 @@ section {
 
 .home-sci a:hover::before {
     width: 100%;
+}
+
+.home-imgHover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45%;
+    height: 100%;
+    background: transparent;
+      transition: 3s;
+}
+
+.home-imgHover:hover {
+    background: var(--primary-bg-color);
+    opacity: .8;
 }
