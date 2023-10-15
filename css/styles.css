@@ -31,10 +31,6 @@ body {
     color: var(--primary-text-color);
 }
 
-.active {
-    color: var(--primary-color);
-}
-
 /* header */
 
 header {
@@ -43,16 +39,11 @@ header {
     left: 0;
     width: 100%;
     padding: 2rem 9%;
- 
+    /*background-color: var(--header-bg-color);*/
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    transition: 0.3s;
-}
-
-header.sticky {
-    background: var(--primary-bg-color);
 }
 
 
@@ -261,14 +252,7 @@ section {
     border-radius: 50%;
     border: 2px solid var(--primary-color);
     margin: 2rem;
- 
 }
-
-.center {
-    max-width: 200px;
-    margin: 3rem auto;
-}
-
 
 .about-content h2 {
     font-size: 2.5rem;
